@@ -10,6 +10,12 @@ body {
   padding-top: 50px;
 }
 
+.preloader-container {
+  flex: 1 0 auto;
+  justify-content: center;
+  padding-top: 50px;
+}
+
 .page-footer {
   padding-top: 0;
 }

@@ -10,7 +10,7 @@
         } else {
           populateRandomItem();
         }
-        $('.preloader-wrapper, .data-card').toggleClass('hide');
+        $('.preloader-container, .data-card').toggleClass('hide');
       });
     };
 
