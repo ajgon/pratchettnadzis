@@ -4,7 +4,6 @@
     var loadData = function() {
       $.getJSON('data/pratchettnadzis.json', function (data) {
         DATA = data;
-        window.DATA = data;
 
         if(window.location.hash) {
           $(window).trigger('hashchange');
@@ -25,7 +24,7 @@
         return;
       }
 
-      window.location.hash = id.toString();
+      history.replaceState(undefined, undefined, '#' + id.toString());
 
       for(key in item) {
         if (item.hasOwnProperty(key)) {
@@ -42,13 +41,41 @@
       populateItem(DATA[Math.floor(Math.random() * DATA.length)].id);
     };
 
+    var getCurrentId = function() {
+      return parseInt(window.location.hash.replace(/^#/, ''), 10);
+    };
+
+    var getLastId = function() {
+      return DATA[0].id;
+    }
+
     $(window).on('hashchange', function() {
-      var id = parseInt(window.location.hash.replace(/^#/, ''), 10);
-      populateItem(id);
+      populateItem(getCurrentId());
     });
+
     $('body').on('click', '.data-shuffle', function(e) {
       e.preventDefault();
       populateRandomItem();
+    });
+
+    $('body').on('click', '.data-first', function(e) {
+      e.preventDefault();
+      populateItem(1);
+    });
+
+    $('body').on('click', '.data-previous', function(e) {
+      e.preventDefault();
+      populateItem(Math.max.apply(Math, [getCurrentId() - 1, 1]));
+    });
+
+    $('body').on('click', '.data-next', function(e) {
+      e.preventDefault();
+      populateItem(Math.min.apply(Math, [getCurrentId() + 1, getLastId()]));
+    });
+
+    $('body').on('click', '.data-last', function(e) {
+      e.preventDefault();
+      populateItem(getLastId());
     });
 
     loadData();
