@@ -1,9 +1,18 @@
 (function($) {
   $(function () {
     var DATA = [];
+    var MISSING = [];
+
     var loadData = function() {
       $.getJSON('data/pratchettnadzis.json', function (data) {
+        var dataIds = data.map(function(item) {
+          return item.id;
+        });
+
         DATA = data;
+        MISSING = Array.apply(null, { length: DATA[0].id }).map(Number.call, Number).filter(function(num) {
+          return(num != 0 && dataIds.indexOf(num) < 0);
+        });
 
         if(window.location.hash) {
           $(window).trigger('hashchange');
@@ -64,13 +73,25 @@
     });
 
     $('body').on('click', '.data-previous', function(e) {
+      var newId = getCurrentId() - 1;
+
       e.preventDefault();
-      populateItem(Math.max.apply(Math, [getCurrentId() - 1, 1]));
+      if (MISSING.indexOf(newId) >= 0) {
+        newId -= 1;
+      }
+
+      populateItem(Math.max.apply(Math, [newId, 1]));
     });
 
     $('body').on('click', '.data-next', function(e) {
+      var newId = getCurrentId() + 1;
+
       e.preventDefault();
-      populateItem(Math.min.apply(Math, [getCurrentId() + 1, getLastId()]));
+      if (MISSING.indexOf(newId) >= 0) {
+        newId += 1;
+      }
+
+      populateItem(Math.min.apply(Math, [newId, getLastId()]));
     });
 
     $('body').on('click', '.data-last', function(e) {
