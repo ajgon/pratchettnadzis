@@ -1,5 +1,75 @@
 [
   {
+    "id": 351,
+    "timestamp": "2017-05-28T14:48:56+02:00",
+    "quote": "Dobry plan to nie taki, gdzie ktoś wygrywa, ale taki, gdzie nikt nie uważa, że stracił.",
+    "book": "Zadziwiający Maurycy I Jego Uczone Szczury",
+    "link": "https://www.wykop.pl/wpis/24311007/351-pratchettnadzis-dobry-plan-to-nie-taki-gdzie-k/"
+  },  
+  {
+    "id": 350,
+    "timestamp": "2017-05-27T13:36:27+02:00",
+    "quote": "- Posiadam niezwykłą i nadzwyczajną moc - ostrzegł Rincewind.\nFaktycznie, pomyślał. Całkowita niezdolność do opanowania jakiejkolwiek formy magii to rzecz u maga niezwyczajna.",
+    "book": "Czarodzicielstwo",
+    "link": "https://www.wykop.pl/wpis/24279203/350-pratchettnadzis-posiadam-niezwykla-i-nadzwycza/"
+  },  
+  {
+    "id": 349,
+    "timestamp": "2017-05-26T18:14:05+02:00",
+    "quote": "Cały problem z niewyobrażalnymi potworami polega na tym, że aż nazbyt łatwo je sobie wyobrazić.",
+    "book": "Blask Fantastyczny",
+    "link": "https://www.wykop.pl/wpis/24266975/349-pratchettnadzis-caly-problem-z-niewyobrazalnym/"
+  },  
+  {
+    "id": 348,
+    "timestamp": "2017-05-25T14:26:30+02:00",
+    "quote": "Jeśli nie zamienisz swojego życia w opowieść, staniesz się tylko fragmentem cudzej historii.",
+    "book": "Zadziwiający Maurycy I Jego Uczone Szczury",
+    "link": "https://www.wykop.pl/wpis/24247947/348-pratchettnadzis-jesli-nie-zamienisz-swojego-zy/"
+  },  
+  {
+    "id": 347,
+    "timestamp": "2017-05-24T14:00:21+02:00",
+    "quote": "- Kobiety są jak jelenie - rzucił Cohen z miną znawcy. - Nie można się na nie rzucać, trzeba ścigać...",
+    "book": "Ciekawe Czasy",
+    "link": "https://www.wykop.pl/wpis/24231771/347-pratchettnadzis-kobiety-sa-jak-jelenie-rzucil-/"
+  },  
+  {
+    "id": 346,
+    "timestamp": "2017-05-23T14:49:04+02:00",
+    "quote": "Nie możesz tak sobie budować lepszego świata dla ludzi. Tylko ludzie mogą zbudować lepszy świat dla ludzi. W przeciwnym razie to klatka.",
+    "book": "Wyprawa Czarownic",
+    "link": "https://www.wykop.pl/wpis/24213651/346-pratchettnadzis-nie-mozesz-tak-sobie-budowac-l/"
+  },  
+  {
+    "id": 345,
+    "timestamp": "2017-05-22T16:55:07+02:00",
+    "quote": "Obecny stan wiedzy można podsumować następująco:\nNa początku było nic, które wybuchło.\nInne teorie ostatecznego początku mówią o bogach stwarzających świat z żeber, wnętrzności i jąder swego ojca. Tych teorii jest sporo. Są interesujące nie z powodu tego, co mówią o kosmologii, ale tego, co mówią o ludziach.",
+    "book": "Panowie I Damy",
+    "link": "https://www.wykop.pl/wpis/24199633/345-pratchettnadzis-obecny-stan-wiedzy-mozna-podsu/"
+  },  
+  {
+    "id": 344,
+    "timestamp": "2017-05-21T17:28:20+02:00",
+    "quote": "Było to bowiem takie posępne, irytujące tykanie, które chciało absolutnie wyraźnie dać człowiekowi do zrozumienia, że każdy tik i każdy tak odbiera mu kolejną sekundę życia.",
+    "book": "Blask Fantastyczny",
+    "link": "https://www.wykop.pl/wpis/24183839/344-pratchettnadzis-bylo-to-bowiem-takie-posepne-i/"
+  },  
+  {
+    "id": 343,
+    "timestamp": "2017-05-20T15:59:24+02:00",
+    "quote": "- W Ankh-Morpork nie da się kraść bez zezwolenia gildii. Chyba że ktoś ma szczególny talent.\n- Dlaczego? I co wtedy? Jaki talent?\n- Na przykład potrafi przeżyć, wisząc głową w dół na którejś z miejskich bram, z uszami przybitymi do kolan.",
+    "book": "Zbrojni",
+    "link": "https://www.wykop.pl/wpis/24164653/343-pratchettnadzis-w-ankh-morpork-nie-da-sie-kras/"
+  },  
+  {
+    "id": 342,
+    "timestamp": "2017-05-19T19:57:52+02:00",
+    "quote": "- Wygląda... znajomo - stwierdził. - Gdzieś już widziałem coś takiego. Proszę... jesteś krasnoludem, prawda?\n- To na pewno ten mój nos - burknął Cuddy. - On mnie zdradza.",
+    "book": "Zbrokni",
+    "link": "https://www.wykop.pl/wpis/24152865/342-pratchettnadzis-wyglada-znajomo-stwierdzil-gdz/"
+  },  
+  {
     "id": 341,
     "timestamp": "2017-05-18T13:42:09+02:00",
     "quote": "Ma się tylko jedną szansę, mówiła. Człowiek może przeżyć siedemdziesiąt lat i jeśli ma szczęście, dostanie jedną szansę. Wystarczy pomyśleć o utalentowanych narciarzach, którzy przyszli na świat na pustyni. O genialnych kowalach, którzy urodzili się setki lat przed wynalezieniem konia.",
